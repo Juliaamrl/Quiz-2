@@ -63,7 +63,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = ` Em Harry Potter, ${nome}`;
+    caixaPerguntas.textContent = ‘Em Harry Potter, ${nome}`;’
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
     caixaResultado.classList.add("mostrar");
